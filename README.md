@@ -37,5 +37,5 @@ public OnPlayerThirstyLevelUpdate(playerid, oldthirstylevel, newthirstylevel)
 	}
 	return 1;
 }
-
 ```
+![hunger](https://github.com/user-attachments/assets/5e49b80c-fd4e-4363-9b85-45a171f560de)
