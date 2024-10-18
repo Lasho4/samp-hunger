@@ -13,7 +13,7 @@ public OnPlayerHungerLevelUpdate(playerid, oldhungerlevel, newhungerlevel)
 {
 	if(IsPlayerHungry(playerid))
 	{
-	    // force the player to eat
+	    	// force the player to eat
 		new Float:health;
 		GetPlayerHealth(playerid, health);
 		SetPlayerHealth(playerid, health-3);
@@ -27,7 +27,7 @@ public OnPlayerThirstyLevelUpdate(playerid, oldthirstylevel, newthirstylevel)
 {
 	if(IsPlayerThirsty(playerid))
 	{
-	    // force the player to drink
+		// force the player to drink
 		new Float:health;
 		GetPlayerHealth(playerid, health);
 		SetPlayerHealth(playerid, health-3);
