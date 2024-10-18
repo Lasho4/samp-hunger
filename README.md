@@ -3,8 +3,8 @@ This is hunger/thirsty system for a San Andreas Multiplayer
 
 ## Callbacks
 ```pawn
-OnPlayerHungerLevelUpdate(playerid, oldhungerlevel, newhungerlevel)
-OnPlayerThirstyLevelUpdate(playerid, oldthirstylevel, newthirstylevel)
+public OnPlayerHungerLevelUpdate(playerid, oldhungerlevel, newhungerlevel);
+public OnPlayerThirstyLevelUpdate(playerid, oldthirstylevel, newthirstylevel);
 ```
 
 ## Examples
