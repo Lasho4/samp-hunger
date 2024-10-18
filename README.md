@@ -1,13 +1,14 @@
 # samp-hunger
 This is hunger/thirsty system for a San Andreas Multiplayer
 
-##Callbacks
+## Callbacks
 ```pawn
 OnPlayerHungerLevelUpdate(playerid, oldhungerlevel, newhungerlevel)
 OnPlayerThirstyLevelUpdate(playerid, oldthirstylevel, newthirstylevel)
 ```
 
-```Examples
+## Examples
+```pawn
 public OnPlayerHungerLevelUpdate(playerid, oldhungerlevel, newhungerlevel)
 {
 	if(IsPlayerHungry(playerid))
