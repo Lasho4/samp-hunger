@@ -3,6 +3,11 @@ This is hunger/thirsty system for a San Andreas Multiplayer
 
 ![hunger](https://github.com/user-attachments/assets/5e49b80c-fd4e-4363-9b85-45a171f560de)
 
+## Usage
+```pawn
+#include <hunger.inc>
+```
+
 ## Callbacks
 ```pawn
 public OnPlayerHungerLevelUpdate(playerid, oldhungerlevel, newhungerlevel);
