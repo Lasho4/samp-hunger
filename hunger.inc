@@ -38,12 +38,6 @@
 forward OnPlayerHungerLevelUpdate(playerid, oldhungerlevel, newhungerlevel);
 forward OnPlayerThirstyLevelUpdate(playerid, oldthirstylevel, newthirstylevel);
 
-enum (+=1)
-{
-    propertie_id_hunger,
-    propertie_id_thirsty
-}
-
 enum e_PlayerHungerProperties
 {
     bool:h_Active,
